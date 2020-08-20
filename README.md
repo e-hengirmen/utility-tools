@@ -15,7 +15,9 @@ to use it run the command below:
 	./read_binary {{filename}}
 ```
 ## read_bytes.cpp
-Writes the file's bytes as zeros and ones.It has 5 commands:
+Writes the file's bytes as zeros and ones.
+
+It has 5 commands:
 1. read next byte
 2. read last byte
 3. Go from HERE to N'th byte and read
