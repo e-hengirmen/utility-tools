@@ -1,9 +1,7 @@
 # utility-tools
-includes useful tools I have used to debug my projects
+**includes useful tools I have used to debug my projects**
 
-
-
-To use these files use below commands:
+To use these tools use below commands:
 ```
 	chmod u+x compile.sh
 	./compile.sh
@@ -15,7 +13,7 @@ Writes all of the bytes of the file as zeros and ones. This might be useful if y
 to use it run the command below:
 ```
 	./read_binary {{filename}}
-
+```
 ## read_bytes.cpp
 Writes the file's bytes as zeros and ones.It has 5 commands:
 1. read next byte
@@ -27,4 +25,4 @@ Writes the file's bytes as zeros and ones.It has 5 commands:
 to use it run the command below:
 ```
 	./read_bytes {{filename}}
-
+```
