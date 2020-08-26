@@ -1,15 +1,15 @@
 # utility-tools
 **Includes useful tools I have used to debug my projects**
 
-To use these tools first use your favourite shell to run below script:
+To use these tools first use your favourite shell to run compile.sh script:
 ```
 chmod u+x compile.sh
 ./compile.sh
 ```
 
 ## read_binary.cpp
-Writes all of the bytes of the file to the stream as zeros and ones. This might be useful if you are working with binary file operations. 
-* if the file size is high please do divert the stream to a text file
+Writes all of the bytes of the file to the stream as zeros and ones. This might be useful if you are working with binary files. 
+* if the file size is high please divert the stream to a text file
 to use it run the command below:
 ```
 ./read_binary {{filename}}
