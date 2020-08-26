@@ -3,8 +3,8 @@
 
 To use these tools first use your favourite shell to run below script:
 ```
-	chmod u+x compile.sh
-	./compile.sh
+chmod u+x compile.sh
+./compile.sh
 ```
 
 ## read_binary.cpp
@@ -12,7 +12,7 @@ Writes all of the bytes of the file to the stream as zeros and ones. This might 
 * if the file size is high please do divert the stream to a text file
 to use it run the command below:
 ```
-	./read_binary {{filename}}
+./read_binary {{filename}}
 ```
 ## read_bytes.cpp
 Writes the file's bytes as zeros and ones. This might be useful if you are working with binary file operations as well.
@@ -26,5 +26,5 @@ It has 5 commands:
 
 to use it run the command below:
 ```
-	./read_bytes {{filename}}
+./read_bytes {{filename}}
 ```
