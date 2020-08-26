@@ -19,7 +19,7 @@ void write_binary(unsigned char c){
 
 int main(int argc,char *argv[]){
     if(argc==1){
-        cout<<"Missing file name"<<endl<<"try './read20 {{file_name}}'"<<endl;
+        cout<<"Missing file name"<<endl<<"try './read_binary {{file_name}}'"<<endl;
         return 0;
     }
     FILE* fp=fopen(argv[1],"rb");
